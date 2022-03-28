@@ -3,8 +3,14 @@
 body {
 	color: $gray12;
 	background-color: $gray1;
-}
 
-a {
-	color: inherit;
+	a {
+		color: inherit;
+	}
+
+	#app {
+		min-height: 100vh;
+		display: grid;
+		grid-template-rows: auto 1fr auto;
+	}
 }
