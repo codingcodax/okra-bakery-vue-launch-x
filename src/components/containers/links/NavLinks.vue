@@ -5,7 +5,7 @@ import { NavLink } from "@/components/atoms/index.vue";
 <template>
   <nav class="nav">
     <ul class="nav__links">
-      <NavLink href="#">Cakes</NavLink>
+      <NavLink href="/cakes">Cakes</NavLink>
       <NavLink href="#">Pastries</NavLink>
       <NavLink href="#">Bakery</NavLink>
       <NavLink href="#">Seasonal</NavLink>
