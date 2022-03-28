@@ -46,7 +46,7 @@ import ProductsContainer from "@/components/containers/ProductsContainer.vue";
 @use "@/assets/styles/abstracts/variables" as *;
 
 .customersFavorites {
-  margin: 0 auto 4rem;
+  margin-inline: auto;
   max-width: 1000px;
 
   &__title {

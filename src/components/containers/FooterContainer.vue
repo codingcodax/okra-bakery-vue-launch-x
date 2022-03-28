@@ -41,6 +41,8 @@ import { FooterLinks } from "@/components/containers/links/index.vue";
 @use "@/assets/styles/abstracts/variables" as *;
 
 .footer {
+  margin-top: 4rem;
+
   &__up {
     background-color: $primary6;
   }
