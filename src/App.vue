@@ -6,7 +6,9 @@ import { Header, FooterContainer } from "@/components/containers/index.vue";
 <template>
   <Header />
 
-  <RouterView />
+  <div>
+    <RouterView />
+  </div>
 
   <FooterContainer />
 </template>
