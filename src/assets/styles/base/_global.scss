@@ -1,0 +1,10 @@
+@use '../abstracts/variables' as *;
+
+body {
+	color: $gray12;
+	background-color: $gray1;
+}
+
+a {
+	color: inherit;
+}
