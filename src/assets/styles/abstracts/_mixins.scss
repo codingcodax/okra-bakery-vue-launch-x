@@ -1,20 +1,42 @@
 @use 'variables' as *;
 
-@mixin primaryButton() {
+@mixin basicButton() {
 	width: fit-content;
 	padding: 0.5rem 1rem;
 	display: inline-block;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+
+@mixin primaryButton() {
+	@include basicButton();
+
 	color: $gray1;
 	text-transform: uppercase;
 	background-color: $gray12;
 	border: none;
 	border-radius: 2rem;
-	cursor: pointer;
-	transition: background-color 0.2s ease-in;
+	transition-property: background-color;
 
 	&:hover,
 	&:focus {
 		color: $gray1;
 		background-color: $primary9;
+	}
+}
+
+@mixin secondaryButton() {
+	@include basicButton();
+
+	color: $gray12;
+	text-transform: capitalize;
+	background-color: transparent;
+	border: 2px solid $gray12;
+	transition-property: color, background-color;
+
+	&:hover,
+	&:focus {
+		color: $gray1;
+		background-color: $gray12;
 	}
 }
