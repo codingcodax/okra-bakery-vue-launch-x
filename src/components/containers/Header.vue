@@ -23,8 +23,9 @@ import { NavLinks } from "./links/index.vue";
         </li>
       </ul>
     </div>
+
+    <NavLinks />
   </header>
-  <NavLinks />
 </template>
 
 <style lang="scss" scoped>
