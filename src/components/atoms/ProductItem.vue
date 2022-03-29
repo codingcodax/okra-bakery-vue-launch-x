@@ -29,7 +29,9 @@ defineProps({
       <p class="product__category"><slot name="category"></slot></p>
       <span class="product__price">$ <slot name="price"></slot></span>
       <div class="product__divider"></div>
-      <span :class="`product__feature ${isDelivery}`"><IconTruckFast /> Home Delivery</span>
+      <span :class="`product__feature ${isDelivery}`"
+        ><IconTruckFast /> Home Delivery</span
+      >
       <span :class="`product__feature ${isAway}`"
         ><IconBagItemInside /> Take Away</span
       >
