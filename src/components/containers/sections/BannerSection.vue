@@ -2,7 +2,6 @@
 import { IconChevronRight } from "@/components/icons/index.vue";
 </script>
 
-
 <template>
   <section class="banner">
     <img

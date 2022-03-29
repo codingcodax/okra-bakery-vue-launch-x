@@ -13,7 +13,7 @@ import ProductsContainer from "@/components/containers/ProductsContainer.vue";
     <div class="customersFavorites__divider"></div>
     <ProductsContainer>
       <ProductItem
-        src="/src/assets/img/christmas-cake.png"
+        src="/assets/img/christmas-cake.png"
         alt="christmas cake with forest fruits"
         isDelivery
         isAway
@@ -24,7 +24,7 @@ import ProductsContainer from "@/components/containers/ProductsContainer.vue";
         <template #price>250</template>
       </ProductItem>
       <ProductItem
-        src="/src/assets/img/royal-cake.png"
+        src="/assets/img/royal-cake.png"
         alt="royal chocolate cake"
         isAway
         isDining
