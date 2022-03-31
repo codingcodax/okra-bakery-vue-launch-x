@@ -4,19 +4,13 @@ import { CategoryItem } from "@/components/atoms/index.vue";
 
 <template>
   <ul class="categories">
-    <CategoryItem
-      src="/assets/img/new-years-treats.png"
-      alt="cupcakes"
-      href="#"
+    <CategoryItem src="/img/new-years-treats.png" alt="cupcakes" href="#"
       >New Years Treats</CategoryItem
     >
-    <CategoryItem src="/assets/img/special-cakes.png" alt="cakes" href="#"
+    <CategoryItem src="/img/special-cakes.png" alt="cakes" href="#"
       >Special Cakes</CategoryItem
     >
-    <CategoryItem
-      src="/assets/img/special-collection.png"
-      alt="cupcakes"
-      href="#"
+    <CategoryItem src="/img/special-collection.png" alt="cupcakes" href="#"
       >Festival Collection</CategoryItem
     >
   </ul>

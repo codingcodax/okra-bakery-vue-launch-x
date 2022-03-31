@@ -7,7 +7,7 @@ import {
 
 <template>
   <ProductHeaderSection
-    src="/assets/img/assortment-pieces-cake.png"
+    src="/img/assortment-pieces-cake.png"
     alt="assortment cake in pieces"
   >
     <template #title>Cakes</template>
